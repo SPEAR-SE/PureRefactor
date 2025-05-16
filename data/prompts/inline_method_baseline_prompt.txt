@@ -1,0 +1,19 @@
+Task: {task_description}
+
+Code to be Refactored:
+{code_to_refactor}
+
+Class content:
+{class_content}
+
+Refactoring Operation:
+{refactoring_operation}
+
+Instructions:
+1. Analyze the provided code and class content, apply relevant refactoring operation to the code to be refactored.
+2. If refactoring is performed, output the refactored class code in the following format:
+##########################
+refactored_class_code
+##########################
+
+

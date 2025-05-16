@@ -1,0 +1,32 @@
+Task: {task_description}
+
+Code to be Refactored:
+{code_to_refactor}
+
+Class content:
+{class_content}
+
+Refactoring Operation:
+{refactoring_operation}
+
+Project Structure:
+{project_structure}
+
+Instructions:
+1. Analyze the provided code, class content, and project structure, apply move method refactoring to the code to be refactored, output the target file path, moved class code, and refactored method code.
+Need to move to an existing java file
+The moved method code should be updated to the public static method.
+The refactored method code should use the moved class to call the moved method.
+The target file path should be the path of the existing class where the method is moved to.
+
+2. If refactoring is performed, output the target file path, moved class code, and refactored method code in the following format:
+##########################
+target_file_path
+##########################
+moved_class_code
+##########################
+refactored_method_code
+##########################
+
+
+

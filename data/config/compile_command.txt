@@ -1,0 +1,4 @@
+checkstyle: "mvn clean package -Drat.skip=true -Dmaven.javadoc.skip=true -Dtest='!TestMessageReporter,!XpathRegressionTest,!XdocsPagesTest'"
+pmd:  success, result_first = run_command("mvn clean package -Drat.skip=true -Dmaven.javadoc.skip=true -Dtest='!FileUtilsTest,!FileUtilsCleanSymlinksTest,!FileUtilsCleanDirectoryTest,!FileDeleteStrategyTest,!PathUtilsDeleteDirectoryTest,!PathUtilsDeleteFileTest,!PathUtilsDeleteTest'")
+commons-io: mvn clean package -Drat.skip=true -Dmaven.javadoc.skip=true -Dtest='!FileUtilsDeleteDirectoryLinuxTestCase,!ObservableInputStreamTest'
+commons-lang: mvn clean package -Drat.skip=true -Dmaven.javadoc.skip=true -Dtest='!TestMessageReporter,!XpathRegressionTest,!XdocsPagesTest'

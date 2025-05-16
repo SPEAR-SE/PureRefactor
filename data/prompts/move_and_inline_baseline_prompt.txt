@@ -1,0 +1,24 @@
+Task: {task_description}
+
+Code to be Refactored:
+{code_to_refactor}
+
+Class content:
+{class_content}
+
+Refactoring Operation:
+{refactoring_operation}
+
+Project Structure:
+{project_structure}
+
+Instructions:
+1. Analyze the provided code, class content, and project structure, apply relevant refactoring operation to the code to be refactored, output the target file path.
+2. If refactoring is performed, output the refactored class code in the following format:
+##########################
+target_file_path
+##########################
+refactored_class_code
+##########################
+
+
