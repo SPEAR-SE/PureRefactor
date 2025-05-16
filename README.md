@@ -223,13 +223,17 @@ There are four configurations in config.yaml that need to be set.
 * configure project_prefix_path, OPENAI_API_KEY, project_name in the config.yaml.
 
 #### Automatic pipeline for construction PureRefactor
-* cd ./code/data/tools/RefactoringMiner-3.0.10/bin
-* ./RefactoringMiner -pbc {project_path} {start_commit} {end_commit} e.g. ./RefactoringMiner -pbc /RefactoringMiner/tmp/checkstyle 0ae1b19ddf4167c3d3fdc2544980a00927c9b974 b007d563c4f9da44040452a8a9de2b76bc64875e
-* python pre_process_data.py
-
+```bash
+cd ./code/data/tools/RefactoringMiner-3.0.10/bin
+./RefactoringMiner -pbc {project_path} {start_commit} {end_commit} e.g. ./RefactoringMiner -pbc /RefactoringMiner/tmp/checkstyle 0ae1b19ddf4167c3d3fdc2544980a00927c9b974 b007d563c4f9da44040452a8a9de2b76bc64875e
+(update param in pre_process_data.py)
+python pre_process_data.py
+```
 #### Evaluation
-* python llm_refactoring.py
-* python multiple_agent_rag_refactoring_main.py
+```bash
+python llm_refactoring.py
+python multiple_agent_rag_refactoring_main.py
+```
 
 #### Result
 ![Result](./static/LLMs_result.png)
