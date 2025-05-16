@@ -6,6 +6,9 @@ Code to be Refactored:
 Class content:
 {class_content}
 
+Call Relationship:
+{call_relationship}
+
 Refactoring Operation:
 {refactoring_operation}
 

@@ -12,6 +12,9 @@ Refactoring Operation:
 Project Structure:
 {project_structure}
 
+Call Relationship:
+{call_relationship}
+
 File Path Before Refactoring:
 {file_path_before_refactoring}
 
