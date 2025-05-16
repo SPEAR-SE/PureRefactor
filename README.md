@@ -208,7 +208,7 @@ There are four configurations in config.yaml that need to be set.
 
 ### How to run the code
 
-#### set up
+#### Set up
 
 * install the requirements.
 * install the chromadb vector database.
@@ -222,12 +222,15 @@ There are four configurations in config.yaml that need to be set.
 * run clone.sh to clone the project code to be analyzed
 * configure project_prefix_path, OPENAI_API_KEY, project_name in the config.yaml.
 
-#### automatic pipeline for construction PureRefactor
+#### Automatic pipeline for construction PureRefactor
 * cd ./code/data/tools/RefactoringMiner-3.0.10/bin
 * ./RefactoringMiner -pbc {project_path} {start_commit} {end_commit} e.g. ./RefactoringMiner -pbc /RefactoringMiner/tmp/checkstyle 0ae1b19ddf4167c3d3fdc2544980a00927c9b974 b007d563c4f9da44040452a8a9de2b76bc64875e
 * python pre_process_data.py
 
-#### evaluation
+#### Evaluation
 * python llm_refactoring.py
 * python multiple_agent_rag_refactoring_main.py
+
+#### Result
+![Result](./static/LLMs_result.png)
 
